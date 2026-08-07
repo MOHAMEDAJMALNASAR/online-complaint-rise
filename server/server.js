@@ -11,7 +11,10 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "https://online-complaint-rise-1.onrender.com",
+  origin:[
+   "https://online-complaint-rise-1.onrender.com",
+   "https://online-complaint-rise-2.onrender.com"
+  ],
   credentials: true,
 }));
 
