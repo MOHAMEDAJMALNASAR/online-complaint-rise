@@ -129,3 +129,5 @@ Runs on `http://localhost:5174`. The Vite dev server proxies `/api` and `/upload
 - Change `JWT_SECRET` and the default admin credentials in `server/.env` before deploying.
 - Both applications run independently; the server is shared.
 - Uploaded images are served statically from `/uploads`. For production, configure a cloud storage bucket.
+- ### drive link for my reports
+- https://drive.google.com/drive/folders/1NEyYWa-cL0FpjJs-pri1vH_DSkEfW6Ll
