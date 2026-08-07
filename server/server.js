@@ -12,8 +12,8 @@ const app = express();
 
 app.use(cors({
   origin:[
-   "https://online-complaint-rise-1.onrender.com",
-   "https://online-complaint-rise-2.onrender.com"
+   process.env.CLIENT_URL,
+   process.env.ADMIN_URL,
   ],
   credentials: true,
 }));
